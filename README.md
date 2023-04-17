@@ -35,5 +35,5 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 ### For `Windows`
 
-- :arrow_down: [Download the prebuilt zip file and unzip it.](https://github.com/tasdikrahman/spaceShooter/releases/latest)
+- :arrow_down: [Download the prebuilt zip file and unzip it.](https://github.com/Devesh-code/Benatar_space_game.git)
 - Run the executable named `spaceShooter` inside the extracted file.
