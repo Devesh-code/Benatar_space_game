@@ -92,7 +92,7 @@ You need to have `pygame` installed for this option.
 
 ##### Clone the repo
 ```sh
-$ git clone https://github.com/tasdikrahman/spaceShooter.git
+$ git clone https://github.com/Devesh-code/The-Benatar-space-game.git
 $ cd The-Benatar-space-game/
 $ chmod +x benatar.py
 $ python benatar.py
@@ -108,7 +108,7 @@ $ sudo apt-get install python-pygame
 ##### Clone the repo
 
 ```bash
-$ git clone https://github.com/tasdikrahman/spaceShooter.git
+$ git clone https://github.com/Devesh-code/The-Benatar-space-game.git
 $ cd The-Benatar-space-game/ 
 $ python benatar.py
 ```
