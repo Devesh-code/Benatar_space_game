@@ -6,7 +6,7 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 [[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
 
-| ![Screen 1](https://imgur.com/a/Pmy3DpS) | ![Screen 2](http://i.imgur.com/4OgIByR.png) |
+| ![Screen 1](https://imgur.com/uJH218E) | ![Screen 2](http://i.imgur.com/4OgIByR.png) |
 |---------------------------------------------|---------------------------------------------|
 | ![Screen 3](http://i.imgur.com/PFQJjE8.png) | ![Screen 4](http://i.imgur.com/lV4aIur.png) |
 
