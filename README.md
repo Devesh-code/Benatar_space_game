@@ -32,3 +32,8 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 - Multiple type alien 
 - 5 lives per game
 - Fun to play :)
+
+### For `Windows`
+
+- :arrow_down: [Download the prebuilt zip file and unzip it.](https://github.com/tasdikrahman/spaceShooter/releases/latest)
+- Run the executable named `spaceShooter` inside the extracted file.
