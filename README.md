@@ -33,6 +33,10 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 - 5 lives per game
 - Fun to play :)
 
+## Installation
+
+[[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
+
 ### For `Windows`
 
 - :arrow_down: [Download the prebuilt zip file and unzip it.](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/main.zip)
