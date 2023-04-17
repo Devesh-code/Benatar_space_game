@@ -52,13 +52,13 @@ Follow the below video link to see how I fared on ``The benatar space game``
 ### For `Windows`
 
 - [Download the prebuilt zip file and unzip it.](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/main.zip)
-- Run the executable named `main` inside the extracted file.
+- Run the executable named `benatar` inside the extracted file.
 
 ### `Linux/Debian` based systems
 
 #### Option 1: Download the zipped executable file
 
-- [Download the latest zip file for linux](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/main.zip)
+- [Download the latest zip file for linux](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/benatar.zip)
 - Unzip the file
 
 If your download was saved on the `~/Downloads` folder
@@ -66,11 +66,11 @@ If your download was saved on the `~/Downloads` folder
 Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the shell if you are on `GNU/Linux` based systems and type
 
 ```bash
-$ unzip ~/Downloads/main-0.0.3.Linux.zip -d ~/Desktop
+$ unzip ~/Downloads/benatar-0.0.3.Linux.zip -d ~/Desktop
 $ cd ~/Desktop
 $ ## navigate to the unzipped file and change the file permissions for the executable
-~/Desktop $ chmod +x main
-~/Desktop $ ./main
+~/Desktop $ chmod +x benatar
+~/Desktop $ ./benatar
 ```
 
 This will unzip the file on your `Desktop`, you can replace it with the directory of your choice
@@ -82,7 +82,7 @@ $ sudo apt-get install unzip
 ```
 That should fix the error.
 
-- Run the executable named `main`
+- Run the executable named `benatar`
 
 A Similar process would be followed for `OS X`
 
@@ -94,8 +94,8 @@ You need to have `pygame` installed for this option.
 ```sh
 $ git clone https://github.com/tasdikrahman/spaceShooter.git
 $ cd The-Benatar-space-game/
-$ chmod +x main.py
-$ python main.py
+$ chmod +x benatar.py
+$ python benatar.py
 ```
 
 
@@ -110,5 +110,5 @@ $ sudo apt-get install python-pygame
 ```bash
 $ git clone https://github.com/tasdikrahman/spaceShooter.git
 $ cd The-Benatar-space-game/ 
-$ python main.py
+$ python benatar.py
 ```
