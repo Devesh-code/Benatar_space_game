@@ -12,6 +12,14 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 |---------------------------------------------|---------------------------------------------|
 | ![Screen 5](https://i.imgur.com/1vfMMXJ.jpg) | ![Screen 6](https://i.imgur.com/Sa7eDsF.jpg) |
 
+## Demo
+
+[[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
+
+Follow the below video link to see how I fared on ``The benatar space game``
+
+[![Space Shooter Demo - link](https://i.imgur.com/puDP3f8.jpg)](https://i.imgur.com/i7smfMs.mp4)
+
 ## Controls
 
 [[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
