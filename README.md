@@ -58,7 +58,7 @@ Follow the below video link to see how I fared on ``The benatar space game``
 
 #### Option 1: Download the zipped executable file
 
-- [Download the latest zip file for linux](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/benatar.zip)
+- [Download the latest zip file for linux](https://github.com/Devesh-code/The-Benatar-space-game/archive/refs/heads/main.zip)
 - Unzip the file
 
 If your download was saved on the `~/Downloads` folder
