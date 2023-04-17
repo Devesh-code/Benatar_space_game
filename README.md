@@ -20,7 +20,7 @@ Follow the below video link to see how I fared on ``The benatar space game``
 
 [![Space Shooter Demo - link](https://i.imgur.com/puDP3f8.jpg)]
 
-(https://i.imgur.com/i7smfMs.mp4)
+(https://vimeo.com/818505391)
 
 ## Controls
 
