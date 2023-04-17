@@ -15,7 +15,19 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 |              | Button              |
 |--------------|---------------------|
-| Move Left    | <kbd>left</kbd>     |
-| Move right   | <kbd>right</kbd>    |
+| Move Left    | <kbd>a</kbd>     |
+| Move right   | <kbd>d</kbd>    |
+| Move top     | <kbd>w</kbd>    |
+| Move down    | <kbd>s</kbd>    |
 | Fire bullets | <kbd>spacebar</kbd> |
-| Quit game    | <kbd>Esc</kbd>      |
+| Quit game    | <kbd>q</kbd>      |
+
+## Game Features
+
+[[Back to top]](https://github.com/Devesh-code/Benatar_space_game#The_Benatar_space_game)
+
+- Health bar for the space ship
+- Score board to show how you are faring so far
+- Multiple type alien 
+- 5 lives per game
+- Fun to play :)
