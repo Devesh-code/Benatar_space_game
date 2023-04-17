@@ -4,7 +4,7 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 ## Screenshots
 
-[[Back to top]](https://github.com/Devesh-code/Benatar_space_game#The_Benatar_space_game)
+[[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
 
 | ![Screen 1](http://i.imgur.com/3MzfmbT.jpg) | ![Screen 2](http://i.imgur.com/4OgIByR.png) |
 |---------------------------------------------|---------------------------------------------|
@@ -12,7 +12,7 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 ## Controls
 
-[[Back to top]](https://github.com/Devesh-code/Benatar_space_game#The_Benatar_space_game)
+[[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
 
 |              | Button              |
 |--------------|---------------------|
@@ -25,7 +25,7 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 ## Game Features
 
-[[Back to top]](https://github.com/Devesh-code/Benatar_space_game#The_Benatar_space_game)
+[[Back to top]](https://github.com/Devesh-code/The-Benatar-space-game#The_Benatar_space_game)
 
 - Health bar for the space ship
 - Score board to show how you are faring so far
