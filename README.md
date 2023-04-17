@@ -18,7 +18,9 @@ Once upon a time, in a planet there lived a species peacefully and happily. Thei
 
 Follow the below video link to see how I fared on ``The benatar space game``
 
-[![Space Shooter Demo - link](https://i.imgur.com/puDP3f8.jpg)](https://i.imgur.com/i7smfMs.mp4)
+[![Space Shooter Demo - link](https://i.imgur.com/puDP3f8.jpg)]
+
+(https://i.imgur.com/i7smfMs.mp4)
 
 ## Controls
 
