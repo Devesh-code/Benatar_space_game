@@ -8,12 +8,12 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT),pygame.RESIZABLE) #  resizable win
 pygame.display.set_caption("Space Shooter")
 
 # Load images
-RED_SPACE_SHIP = pygame.image.load(os.path.join("assets", "alien1.png"))
-GREEN_SPACE_SHIP = pygame.image.load(os.path.join("assets", "alien2.png"))
-BLUE_SPACE_SHIP = pygame.image.load(os.path.join("assets", "alien3.png"))
+GREEN_ALIEN = pygame.image.load(os.path.join("assets", "GREEN_ALIEN.png"))
+GRAY_ALIEN = pygame.image.load(os.path.join("assets", "GRAY_ALIEN.png"))
+BLUE_ALIEN = pygame.image.load(os.path.join("assets", "BLUE_ALIEN.png"))
 
 # Player player
-YELLOW_SPACE_SHIP = pygame.image.load(os.path.join("assets", "rocket2.png"))
+BENATAR_SPACE_SHIP = pygame.image.load(os.path.join("assets", "BENATAR_SPACE_SHIP.png"))
 
 # Lasers
 RED_LASER = pygame.image.load(os.path.join("assets", "laser10.png"))
@@ -93,8 +93,10 @@ class Ship:
 class Player(Ship):
     def __init__(self, x, y, health=100):
         super().__init__(x, y, health)
-        self.ship_img = YELLOW_SPACE_SHIP
-        self.laser_img = YELLOW_LASER
+        self.ship_img = BENATAR_SPACE_SHIP
+        self.central_laser_img = YELLOW_LASER
+        self.left_laser_img = YELLOW_LASER
+        self.right_laser_img = YELLOW_LASER
         self.mask = pygame.mask.from_surface(self.ship_img)
         self.max_health = health
 
@@ -116,28 +118,41 @@ class Player(Ship):
         self.healthbar(window)
 
     def healthbar(self, window):
-        pygame.draw.rect(window, (255,0,0), (self.x, self.y + self.ship_img.get_height() + 10, self.ship_img.get_width(), 10))
-        pygame.draw.rect(window, (0,255,0), (self.x, self.y + self.ship_img.get_height() + 10, self.ship_img.get_width() * (self.health/self.max_health), 10))
+        pygame.draw.rect(window, (255, 0, 0), (self.x, self.y + self.ship_img.get_height() + 10, self.ship_img.get_width(), 10))
+        pygame.draw.rect(window, (0, 255, 0), (self.x, self.y + self.ship_img.get_height() + 10,
+                                               self.ship_img.get_width() * (self.health / self.max_health), 10))
 
+    def shoot(self):
+        if self.cool_down_counter == 0:
+            central_laser = Laser(self.x + self.ship_img.get_width() // 2 - self.central_laser_img.get_width() // 2, self.y, self.central_laser_img)
+            left_laser = Laser(self.x, self.y + self.ship_img.get_height() // 2 - self.left_laser_img.get_height() // 2, self.left_laser_img)
+            right_laser = Laser(self.x + self.ship_img.get_width() - self.right_laser_img.get_width(), self.y + self.ship_img.get_height() // 2 - self.right_laser_img.get_height() // 2, self.right_laser_img)
+            
+            self.lasers.extend([central_laser, left_laser, right_laser])
+            self.cool_down_counter = 0.1
 
 class Enemy(Ship):
     COLOR_MAP = {
-                "red": (RED_SPACE_SHIP, RED_LASER),
-                "green": (GREEN_SPACE_SHIP, GREEN_LASER),
-                "blue": (BLUE_SPACE_SHIP, BLUE_LASER)
+                "red": (GREEN_ALIEN, RED_LASER),
+                "green": (GRAY_ALIEN, GREEN_LASER),
+                "blue": (BLUE_ALIEN, BLUE_LASER)
                 }
 
     def __init__(self, x, y, color, health=100):
         super().__init__(x, y, health)
         self.ship_img, self.laser_img = self.COLOR_MAP[color]
         self.mask = pygame.mask.from_surface(self.ship_img)
+        
+        # Center the laser image
+        laser_width = self.laser_img.get_width()
+        self.laser_x_offset = (self.ship_img.get_width() - laser_width) // 2
 
     def move(self, vel):
         self.y += vel
 
     def shoot(self):
         if self.cool_down_counter == 0:
-            laser = Laser(self.x-20, self.y, self.laser_img)
+            laser = Laser(self.x + self.laser_x_offset, self.y, self.laser_img)  # Adjust the laser's x position
             self.lasers.append(laser)
             self.cool_down_counter = 1
 
